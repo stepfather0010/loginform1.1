@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: sans-serif;
+			background-color: #dded;
+		}
+		.box {
+			width: 400px;
+			height: 300px;
+			background-color: #333;
+			position: absolute;
+			top: 28%;
+			left: 37%;
+			border-radius: 10px;
+		}
+		input[type="text"], input[type="password"] {
+			width: 100%;
+			box-sizing: border-box;
+			margin: 0 5px;
+			padding: 15px;
+			border-radius: 10px;
+			outline: red;
+			border: none;
+			background-color: #f1f1f1;
+		} 
+		input[type="text"]:focus, input[type="password"]:focus {
+			background-color: #dded;
+		}
+	.content {
+		padding: 35px;
+		line-height: 30px;
+		margin-top: 5px;
+	}
+	label {
+		color: white;
+		margin-left: 5px;
+	}
+	button {
+		width: 100%;
+		background-color: green;
+		margin: 0 5px;
+		padding: 10px;
+		color: white;
+		font-size: 18px;
+		border: none;
+		border-radius: 10px;
+		cursor: pointer;
+		margin-top: 20px;
+	}
+	</style>
+</head>
+<body>
+    <div class="box">
+    	<form action="portfolio.html">
+    	<div class="content">
+    		<label>Login</label>
+    		<input type="text" name="" placeholder="Login kiriting"  required="">
+    		<label>Parol</label>
+    		<input type="password" name="" placeholder="Parol kiriting" required="" pattern="[0909595]{7}">
+    		<button>Kirish</button>
+    	</div>
+    	</form>
+    </div>
+</body>
+</html>
